@@ -39,7 +39,7 @@ namespace GetWild
             }
         }
 
-        async private void getWildAndTouch()
+        async private void getWildAndTough()
         {
             if (media.CurrentState == MediaElementState.Playing)
             {
@@ -76,7 +76,7 @@ namespace GetWild
 
                 if ((uint)reading.IlluminanceInLux < this.thresholdValue)
                 {
-                    getWildAndTouch();
+                    getWildAndTough();
                 }
             });
         }
